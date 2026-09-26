@@ -1,0 +1,126 @@
+import type { Tour } from "@/types";
+
+export const tours: Tour[] = [
+  {
+    slug: "classic-sri-lanka-highlights",
+    name: "Classic Sri Lanka Highlights",
+    location: "Colombo, Kandy, Sigiriya, Ella",
+    duration: "7 Days / 6 Nights",
+    price: 780,
+    rating: 4.9,
+    image:
+      "https://images.unsplash.com/photo-1584824486509-112e4181ff6b?auto=format&fit=crop&w=1200&q=80",
+    summary: "A perfectly balanced island adventure covering heritage, nature, and scenic train journeys.",
+    description:
+      "This classic itinerary blends Sri Lanka's most iconic cultural landmarks with breathtaking hill-country scenery and relaxed coastal evenings.",
+    difficulty: "Moderate",
+    bestFor: ["First-time visitors", "Couples", "Families"],
+    highlights: ["Sigiriya Rock Fortress", "Kandy Temple of the Tooth", "Ella train ride"],
+    itinerary: [
+      { day: "Day 1", title: "Arrival in Colombo", description: "Private airport transfer and city orientation." },
+      { day: "Day 2", title: "Kandy & cultural heritage", description: "Temple visits, gardens, and a traditional dance show." },
+      { day: "Day 3", title: "Sigiriya exploration", description: "Climb the fortress and enjoy a village lunch." },
+      { day: "Day 4", title: "Hill country transfer", description: "Scenic drive to Ella with tea estate stops." },
+      { day: "Day 5", title: "Ella adventures", description: "Waterfalls, viewpoints, and a sunset lookout." },
+      { day: "Day 6", title: "Leisure and departure prep", description: "Free day for shopping or a beach escape." },
+      { day: "Day 7", title: "Departure", description: "Transfer to the airport with warm farewells." },
+    ],
+    gallery: [
+      "https://images.unsplash.com/photo-1570672821741-384e9d6de2a2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80",
+    ],
+    includes: ["Accommodation", "Airport transfers", "Breakfast", "Guided sightseeing"],
+  },
+  {
+    slug: "heritage-and-tea-country",
+    name: "Heritage & Tea Country",
+    location: "Kandy, Nuwara Eliya, Ella",
+    duration: "6 Days / 5 Nights",
+    price: 690,
+    rating: 4.8,
+    image:
+      "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?auto=format&fit=crop&w=1200&q=80",
+    summary: "A slower, scenic route through tea plantations, waterfalls, and historic cities.",
+    description:
+      "Witness the misty peaks of Sri Lanka's central highlands while uncovering colonial stories, local estates, and hidden mountain villages.",
+    difficulty: "Easy",
+    bestFor: ["Nature lovers", "Slow travelers", "Couples"],
+    highlights: ["Tea factory tour", "Nuwara Eliya", "Waterfall tracks"],
+    itinerary: [
+      { day: "Day 1", title: "Arrival in Kandy", description: "Check in and relax near the lake." },
+      { day: "Day 2", title: "Cultural Kandy", description: "Temple, market, and evening cultural show." },
+      { day: "Day 3", title: "Tea country drive", description: "Visit plantation villages and tea factories." },
+      { day: "Day 4", title: "Nuwara Eliya", description: "Explore colonial architecture and cool-climate gardens." },
+      { day: "Day 5", title: "Ella viewpoint day", description: "Trek, scenic stops, and local food tasting." },
+      { day: "Day 6", title: "Departure", description: "Return to Colombo for your flight home." },
+    ],
+    gallery: [
+      "https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1200&q=80",
+    ],
+    includes: ["Private transport", "Tea estate entry", "Breakfast", "Hotel stays"],
+  },
+  {
+    slug: "wildlife-beach-escape",
+    name: "Wildlife & Beach Escape",
+    location: "Yala, Galle, Bentota",
+    duration: "8 Days / 7 Nights",
+    price: 920,
+    rating: 4.9,
+    image:
+      "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=1200&q=80",
+    summary: "Safari mornings, coastal afternoons, and palm-lined beaches for the perfect island balance.",
+    description:
+      "Enjoy thrilling wildlife encounters in Yala, then drift into the coastal charm of Galle and Bentota for seaside relaxation.",
+    difficulty: "Moderate",
+    bestFor: ["Adventure travelers", "Couples", "Wildlife fans"],
+    highlights: ["Yala safari", "Beach resort stay", "Sunset cruise"],
+    itinerary: [
+      { day: "Day 1", title: "Arrival in Colombo", description: "Private transfer to your beach hotel." },
+      { day: "Day 2", title: "Bentota coast", description: "Beach day and evening dining by the sea." },
+      { day: "Day 3", title: "Wildlife drive", description: "Yala safari and forest lodge stay." },
+      { day: "Day 4", title: "Safari continuation", description: "Birdwatching and nature walk in the reserve." },
+      { day: "Day 5", title: "Galle fort", description: "Historic walk and seafood dinner." },
+      { day: "Day 6", title: "Beach leisure", description: "Sunset on the sand and optional water sports." },
+      { day: "Day 7", title: "Optional day trip", description: "Temple visits or boat trip along the coast." },
+      { day: "Day 8", title: "Departure", description: "Transfer to the airport." },
+    ],
+    gallery: [
+      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527631746610-bca00a040d60?auto=format&fit=crop&w=1200&q=80",
+    ],
+    includes: ["Safari permits", "Hotel stays", "Breakfast", "Transfers"],
+  },
+  {
+    slug: "romantic-south-coast",
+    name: "Romantic South Coast",
+    location: "Galle, Mirissa, Tangalle",
+    duration: "5 Days / 4 Nights",
+    price: 610,
+    rating: 4.8,
+    image:
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+    summary: "A mellow blend of sea sunsets, romantic dining, and cozy boutique stays.",
+    description:
+      "Perfect for couples seeking stunning beaches, whale watching opportunities, and relaxing luxury escapes.",
+    difficulty: "Easy",
+    bestFor: ["Honeymooners", "Couples", "Relaxation"],
+    highlights: ["Mirissa beach", "Sunset cruise", "Boutique resort stay"],
+    itinerary: [
+      { day: "Day 1", title: "Arrival in Galle", description: "Check in and enjoy a fort sunset walk." },
+      { day: "Day 2", title: "Mirissa day trip", description: "Beach club day and dinner overlooking the sea." },
+      { day: "Day 3", title: "Whale watching", description: "Ocean adventure with a guided marine tour." },
+      { day: "Day 4", title: "Tangalle retreat", description: "Spa time and villager culinary experience." },
+      { day: "Day 5", title: "Departure", description: "Transfer and farewell breakfast." },
+    ],
+    gallery: [
+      "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
+    ],
+    includes: ["Boutique lodging", "Breakfast", "Private transfers", "Guided tours"],
+  },
+];
